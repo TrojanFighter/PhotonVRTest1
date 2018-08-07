@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
-  AppID: 
+  AppID: aadb2723-abec-4953-8172-13c140f3df92
   VoiceAppID: 
   ChatAppID: 
-  HostType: 0
-  PreferredRegion: 0
+  HostType: 1
+  PreferredRegion: 2
   EnabledRegions: -1
   Protocol: 0
   ServerAddress: 
@@ -26,5 +26,24 @@ MonoBehaviour:
   PunLogging: 0
   NetworkLogging: 1
   RunInBackground: 1
-  RpcList: []
-  DisableAutoOpenWizard: 0
+  RpcList:
+  - Chat
+  - ColorRpc
+  - DestroyByCollision
+  - DestroyByHit
+  - DestroyRpc
+  - DoJump
+  - Flash
+  - ForceUpdateItem
+  - InstantiateRpc
+  - Marco
+  - PickupItemInit
+  - PlayShotSound
+  - Polo
+  - PunPickup
+  - PunPickupSimple
+  - PunRespawn
+  - RequestForPickupItems
+  - RequestForPickupTimes
+  - TaggedPlayer
+  DisableAutoOpenWizard: 1
